@@ -1,0 +1,31 @@
+.our-work {
+  display: flex;
+}
+.our-work-item {
+  position: relative;
+  margin-bottom: 0;
+}
+.our-work-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.our-work-item-block-title {
+  position: absolute;
+  display: flex;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-family: Roboto;
+  font-weight: 700;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.1;
+
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  background-color: rgba(47, 48, 58, 0.8);
+  color: var(--white-color);
+}

@@ -1,0 +1,116 @@
+.footer {
+  background-color: var(--black-background-color);
+  padding: 60px 0;
+}
+.footer-content {
+  display: flex;
+  align-items: baseline;
+}
+.footer-address {
+  flex-grow: 1;
+  margin-right: 70px;
+}
+.footer-logo {
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+
+  color: var(--white-color);
+}
+.footer-logo-blue {
+  color: var(--accent-colot);
+}
+.footer-list {
+  margin-top: 20px;
+}
+.footer-address-list {
+  list-style-type: none;
+  font-style: normal;
+}
+.footer-address-list > li {
+  margin-bottom: 9px;
+}
+.footer-address-map {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--white-color);
+}
+.footer-address-link {
+  text-decoration: none;
+
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: var(--adress-color);
+  transition-property: color;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--function);
+}
+.footer-address-link:focus,
+.footer-address-link:hover {
+  color: var(--accent-colot);
+}
+
+.invite {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
+  margin-bottom: 20px;
+}
+.footer-icon-list {
+  display: flex;
+  justify-content: center;
+}
+.footer-icon-item {
+  width: 44px;
+  height: 44px;
+  margin-left: 10px;
+}
+.footer-icon-item:first-child {
+  margin-left: 0;
+}
+.footer-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  transition-property: background-color;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--function);
+}
+.footer-link:hover,
+.footer-link:focus {
+  background-color: var(--accent-colot);
+}
+.footer-icon {
+  display: block;
+  width: 20px;
+  height: 20px;
+  fill: var(--white-color);
+  transition-property: background-color;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--function);
+}
+.footer-icon:hover,
+.footer-icon:focus {
+  background-color: var(--accent-colot);
+}

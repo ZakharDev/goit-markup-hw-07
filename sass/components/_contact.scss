@@ -17,15 +17,14 @@
   transition-property: color;
   transition-duration: var(--duration);
   transition-timing-function: var(--function);
+  &:hover,
+  &:focus {
+    color: var(--accent-colot);
+  }
 }
 .contact-icon {
   fill: currentColor;
   margin-right: 10px;
   width: 16px;
   height: 16px;
-}
-
-.contact:hover,
-.contact:focus {
-  color: var(--accent-colot);
 }

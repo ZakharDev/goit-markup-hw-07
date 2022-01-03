@@ -4,9 +4,9 @@
 .our-work-item {
   position: relative;
   margin-bottom: 0;
-}
-.our-work-item:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .our-work-item-block-title {

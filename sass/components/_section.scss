@@ -21,6 +21,9 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 .feature-item {
   justify-content: center;
@@ -28,9 +31,9 @@
 
   margin-right: 30px;
   width: calc((100% - 90px) / 4);
-}
-.feature:not(:last-child) {
-  margin-right: 30px;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .feature-icon-box {
@@ -46,9 +49,6 @@
 .feature-icon {
   width: 70px;
   height: 70px;
-}
-.feature-item:last-child {
-  margin-right: 0;
 }
 
 .feature-title {

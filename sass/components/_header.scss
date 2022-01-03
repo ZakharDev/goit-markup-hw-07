@@ -58,11 +58,12 @@
   transition-duration: var(--duration);
   transition-timing-function: var(--function);
   position: relative;
+  &:hover,
+  &:focus {
+    color: var(--accent-colot);
+  }
 }
-.site-nav:hover,
-.site-nav:focus {
-  color: var(--accent-colot);
-}
+
 .site-nav.current {
   color: var(--accent-colot);
 }

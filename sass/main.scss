@@ -1,6 +1,7 @@
-@import "./utils/vars";
+@import "./utils/variables";
 @import "./utils/base";
 @import "./utils/hidden";
+@import "./utils/mixin";
 
 @import "./components/container";
 @import "./components/icon";
@@ -8,7 +9,7 @@
 @import "./components/header";
 @import "./components/contact";
 @import "./components/hero";
-@import "./components/section";
+@import "./components/features ";
 @import "./components/work-section";
 @import "./components/our-team";
 @import "./components/clients-company";

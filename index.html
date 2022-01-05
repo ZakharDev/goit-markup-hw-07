@@ -22,7 +22,30 @@
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
-    <header class="header">
+        <header class="header">
+            <div class="container container--flex">
+            <a href="./index.html" rel="noopener noreferrer" class="logo" lang="en">Web<span class="logo__primary">Studio</span></a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a class="nav__link nav__link--curent" href="./index.html">Студия</a></li>
+                    <li class="nav__item"><a class="nav__link" href="./portfolio.html">Портфолио</a></li>
+                    <li class="nav__item"><a class="nav__link" href="">Контакты</a></li>
+                </ul>
+            </nav>
+                <ul class="contact">
+                    <li class="contact__item">
+                    <a class="contact__link" href="mailto:info@devstudio.com"><svg class="contact__icon">
+                        <use href="./images/icons.svg#icon-envelope" ></use>
+                    </svg>info@devstudio.com</a></li>
+                    <li class="contact__item">
+                    <a class="contact__link" href="tel:+380961111111"><svg class="contact__icon">
+                        <use href="./images/icons.svg#icon-smartphone" ></use>
+                    </svg>+38 096 111 11 11</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+    <!-- <header class="header">
         <div class="container content">
             <nav class="nav-container">
                 <a href="./index.html" lang="en" class="link-logo"><span class="logo">Web</span>Studio</a>
@@ -56,7 +79,7 @@
                 </li>
             </ul>
         </div>
-    </header>
+    </header> -->
 
     <main>
         <section class="hero">
@@ -67,7 +90,7 @@
 
         </section>
 
-        <section class="section">
+        <!-- <section class="section">
             <div class="container">
                 <h2 class="section-title visually-hidden"> Особенности</h2>
                 <ul class="feature">
@@ -113,7 +136,55 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </section> -->
+<section class="features section">
+    <div class="container">
+        <h2 class="visually-hidden">Особенности</h2>
+        <ul class="features__list">
+            <li class="features__item">
+                <div class="features__box">
+                    <svg class="features__icon">
+                        <use href="./images/icons.svg#icon-sputnik"></use>
+                    </svg>
+                </div>
+                <h3 class="features__caption">Внимание к деталям</h3>
+                <p class="features__text">Идейные соображения, а также начало повседневной работы по формированию
+                    позиции.</p>
+            </li>
+            <li class="features__item">
+                <div class="features__box">
+                    <svg class="features__icon">
+                        <use href="./images/icons.svg#icon-clock"></use>
+                    </svg>
+                </div>
+                <h3 class="features__caption">Пунктуальность</h3>
+                <p class="features__text">Задача организации, в особенности же рамки и место обучения кадров влечет за
+                    собой.</p>
+            </li>
+            <li class="features__item">
+                <div class="features__box">
+                    <svg class="features__icon">
+                        <use href="./images/icons.svg#icon-computer"></use>
+                    </svg>
+                </div>
+                <h3 class="features__caption">Планирование</h3>
+                <p class="features__text">Равным образом консультация с широким активом в значительной степени
+                    обуславливает.</p>
+            </li>
+            <li class="features__item">
+                <div class="features__box">
+                    <svg class="features__icon">
+                        <use href="./images/icons.svg#icon-cosmonavt"></use>
+                    </svg>
+                </div>
+                <h3 class="features__caption">Современные технологии</h3>
+                <p class="features__text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+                </p>
+            </li>
+        </ul>
+    </div>
+</section>
+
 
         <section class="section work-section">
             <div class="container  ">

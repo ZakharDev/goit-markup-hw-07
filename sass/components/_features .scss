@@ -17,7 +17,7 @@
   margin-bottom: 50px;
 }
 
-.feature {
+.features__list {
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
@@ -25,7 +25,7 @@
     margin-right: 30px;
   }
 }
-.feature-item {
+.features__item {
   justify-content: center;
   align-items: center;
 
@@ -36,7 +36,7 @@
   }
 }
 
-.feature-icon-box {
+.features__box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,12 +46,12 @@
   height: 120px;
   margin-bottom: 30px;
 }
-.feature-icon {
+.features__icon {
   width: 70px;
   height: 70px;
 }
 
-.feature-title {
+.features__caption {
   color: var(--title-text-color);
 
   font-weight: 700;
@@ -62,7 +62,7 @@
   margin-bottom: 10px;
 }
 
-.feature-text {
+.features__text {
   font-size: 14px;
   line-height: 1.71;
 }

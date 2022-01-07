@@ -2,15 +2,15 @@
   background-color: var(--black-background-color);
   padding: 60px 0;
 }
-.footer-content {
+.footer--container {
   display: flex;
   align-items: baseline;
 }
-.footer-address {
+.logo_container {
   flex-grow: 1;
   margin-right: 70px;
 }
-.footer-logo {
+.logo-footer {
   font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -19,33 +19,33 @@
   text-decoration: none;
   letter-spacing: 0.03em;
 
-  color: var(--white-color);
-}
-.footer-logo-blue {
   color: var(--accent-colot);
 }
-.footer-list {
+.logo__secondary {
+  color: var(--white-color);
+}
+.address {
   margin-top: 20px;
 }
-.footer-address-list {
+.address__list {
   list-style-type: none;
   font-style: normal;
 }
-.footer-address-list > li {
+.address__list > li {
   margin-bottom: 9px;
 }
-.footer-address-map {
+.address__destination {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   /* or 171% */
-
+  margin-bottom: 9px;
   letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--white-color);
 }
-.footer-address-link {
+.address__contact {
   text-decoration: none;
 
   font-size: 14px;
@@ -64,8 +64,7 @@
   }
 }
 
-
-.invite {
+.join__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -74,20 +73,20 @@
   color: var(--white-color);
   margin-bottom: 20px;
 }
-.footer-icon-list {
+.join__list {
   display: flex;
   justify-content: center;
 }
-.footer-icon-item {
+.join__items {
   width: 44px;
   height: 44px;
   margin-left: 10px;
-    &:first-child {
+  &:first-child {
     margin-left: 0;
   }
 }
 
-.footer-link {
+.join__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -104,7 +103,7 @@
   }
 }
 
-.footer-icon {
+.join__icon {
   display: block;
   width: 20px;
   height: 20px;
@@ -112,9 +111,8 @@
   transition-property: background-color;
   transition-duration: var(--duration);
   transition-timing-function: var(--function);
-    &:hover,
-    &:focus {
-      background-color: var(--accent-colot);
-    }
+  &:hover,
+  &:focus {
+    background-color: var(--accent-colot);
+  }
 }
-
